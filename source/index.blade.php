@@ -27,22 +27,32 @@
         <span class="text-red-600">verified experts on the frontlines of the current pandemic</span>.
     </p>
 
-    <h2> 
+    <h2 class="mt-16 -mb-4"> 
         The above almost plagiarizes an actual 
         <a class=""
             href="https://blog.twitter.com/official/en_us/topics/company/2018/introducing-us-election-labels-for-midterm-candidates.html">
             blog post
         </a>
-        by Twitter.
     </h2>
+    <p>
+        by Twitter in response to the problem of misinformation that plagued the 2016 elections.
 
-    <div class="block">
-        <img src="/assets/img/verified-profile.jpeg" />
-    </div>
+        <img class="min-w-full mt-4" src="/assets/img/verified-profile.jpeg" />
+    </p>
 
     <footer>
         
     </footer>
+</section>
+
+<section class="mt-8">
+    <h1>
+        Now we need this for the crisis 
+    </h1>
+
+    <img class="min-w-full mt-4" src="/assets/img/crisis-verified-badges.jpeg" />
+    <img class="min-w-full mt-4" src="/assets/img/crisis-verified-profile.png" />
+
 </section>
     
 @stop
