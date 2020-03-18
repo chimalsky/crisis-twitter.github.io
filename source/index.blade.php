@@ -1,51 +1,48 @@
 @extends('_layouts.master')
 
 @section('body')
-    @foreach ($posts->where('featured', true) as $featuredPost)
-        <div class="w-full mb-6">
-            @if ($featuredPost->cover_image)
-                <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} cover image" class="mb-6">
-            @endif
 
-            <p class="text-gray-700 font-medium my-2">
-                {{ $featuredPost->getDate()->format('F j, Y') }}
-            </p>
+<h1>
+    Twitter needs a Crisis-Verified System 
+</h1>
 
-            <h2 class="text-3xl mt-0">
-                <a href="{{ $featuredPost->getUrl() }}" title="Read {{ $featuredPost->title }}" class="text-gray-900 font-extrabold">
-                    {{ $featuredPost->title }}
-                </a>
-            </h2>
+<section>
+    <p>
+        When people are looking for news and information, 
+        they turn to Twitter to find out what’s happening in the world right now. 
+        This is especially true during <span class="text-red-600">crises</span>, 
+        where Twitter has become the first place <span class="text-red-600">voters</span> 
+        go to seek accurate information, resources, and breaking news from 
+        journalists, <span class="text-red-600">leaders</span>, <span class="text-red-600">experts -- medical staff, researchers, 
+        emergency managers -- </span>
+    </p>
 
-            <p class="mt-0 mb-4">{!! $featuredPost->getExcerpt() !!}</p>
+    <p>
+        We understand the significance of this responsibility and our teams are building new ways for people who use Twitter to identify original sources and authentic information.
+    </p>
 
-            <a href="{{ $featuredPost->getUrl() }}" title="Read - {{ $featuredPost->title }}" class="uppercase tracking-wide mb-4">
-                Read
-            </a>
-        </div>
+    <p>
+        With that goal in mind, today we are introducing 
+        <span class="text-red-600">specific experts</span> labels for 
+        <span class="text-red-600">verified experts on the frontlines of the current pandemic</span>.
+    </p>
 
-        @if (! $loop->last)
-            <hr class="border-b my-6">
-        @endif
-    @endforeach
+    <h2> 
+        The above almost plagiarizes an actual 
+        <a class=""
+            href="https://blog.twitter.com/official/en_us/topics/company/2018/introducing-us-election-labels-for-midterm-candidates.html">
+            blog post
+        </a>
+        by Twitter.
+    </h2>
 
-    @include('_components.newsletter-signup')
+    <div class="block">
+        <img src="/assets/img/verified-profile.jpeg" />
+    </div>
 
-    @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
-        <div class="flex flex-col md:flex-row md:-mx-6">
-            @foreach ($row as $post)
-                <div class="w-full md:w-1/2 md:mx-6">
-                    @include('_components.post-preview-inline')
-                </div>
-
-                @if (! $loop->last)
-                    <hr class="block md:hidden w-full border-b mt-2 mb-6">
-                @endif
-            @endforeach
-        </div>
-
-        @if (! $loop->last)
-            <hr class="w-full border-b mt-2 mb-6">
-        @endif
-    @endforeach
+    <footer>
+        
+    </footer>
+</section>
+    
 @stop

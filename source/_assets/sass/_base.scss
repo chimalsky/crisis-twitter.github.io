@@ -3,12 +3,9 @@ body {
 }
 
 a {
-    @apply .font-semibold;
-    @apply .no-underline;
-    @apply .text-blue-600;
-
+    @apply .underline;
     &:hover {
-        @apply .text-blue-800;
+        @apply .text-blue-600;
     }
 }
 
@@ -60,13 +57,14 @@ h6 {
 }
 
 h1 {
-    @apply .font-extrabold;
-    @apply .text-5xl;
+    @apply .font-bold;
+    @apply .text-2xl;
 }
 
 h2 {
     @apply .font-bold;
-    @apply .text-4xl;
+    @apply .text-gray-500;
+    @apply .text-2xl;
 }
 
 h3 {
@@ -118,6 +116,7 @@ ul {
 
 p {
     @apply .my-3;
+    @apply .text-xl;
 
     @screen md {
         @apply .my-6;
