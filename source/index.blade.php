@@ -51,7 +51,7 @@
     </h1>
 
     <img class="min-w-full mt-4" src="/assets/img/crisis-verified-badges.jpeg" />
-    <img class="min-w-full mt-4" src="/assets/img/crisis-verified-profile.png" />
+    <img class="min-w-full mt-4" src="/assets/img/crisis-verified-profile.jpeg" />
 
 </section>
     
