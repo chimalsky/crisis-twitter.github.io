@@ -176,7 +176,7 @@
     <p>
         Implement a <strong>Crisis-Verified</strong> badge 
         so that we can know an account belongs to a Doctor in Seattle, 
-        or a Paramedic in Berlin.
+        or a Paramedic in Seoul.
     </p>
 
     <div class="flex flex-wrap items-center mb-24">
