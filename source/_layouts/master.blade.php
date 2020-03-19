@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="{{ $page->meta_description ?? $page->siteDescription }}">
+        <meta name="description" content="Twitter needs Crisis-Verified Labels">
 
         <meta property="og:title" content="Twitter needs a Crisis-Verified system"/>
         <meta property="og:type" content="website" />
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
-        <meta property="og:description" content="{{ $page->siteDescription }}" />
+        <meta property="og:description" content="Twitter needs Crisis-Verified Labels" />
 
-        <title>Twitter needs a Crisis-Verified system</title>
+        <title>Twitter needs a Crisis-Verified Labels</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/favicon.ico">
