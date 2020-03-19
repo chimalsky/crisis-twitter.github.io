@@ -6,7 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="Twitter needs Crisis-Verified Labels">
 
-        <meta property="og:title" content="Twitter needs a Crisis-Verified system"/>
+        <meta property="og:title" content="Twitter needs Crisis-Verified Labels"/>
         <meta property="og:type" content="website" />
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:description" content="Twitter needs Crisis-Verified Labels" />
