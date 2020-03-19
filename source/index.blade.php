@@ -180,10 +180,10 @@
     </p>
 
     <div class="flex flex-wrap items-center mb-24">
-        <div class="w-full lg:w-1/3 mt-4">
+        <div class="w-full lg:w-1/3 lg:pr-1">
             <img src="/assets/img/crisis-verified-badges.jpeg" />
         </div>
-        <div class="w-full lg:w-2/3 mt-4">
+        <div class="w-full lg:w-2/3 lg:pl-1">
             <img src="/assets/img/crisis-verified-profile.jpeg" />
         </div>
     </div>
